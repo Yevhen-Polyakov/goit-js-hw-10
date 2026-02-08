@@ -1,0 +1,38 @@
+
+.input-text{
+    padding-top: 50px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.is-not-active{
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed
+}
+
+button.is-not-active,
+input.is-not-active {
+    background-color: #f2f2f2;
+    border-color: #d0d0d0;
+    color: #8a8a8a;
+}
+
+
+
+
+
+
+
+
+
+
